@@ -1,11 +1,12 @@
-# Book My Show
+# Movies Mania
 ## Capabilities:
 * Users can select any state and from any state they can select any city 
 from any city they can select any cinema from any cinema they can select any movie.
 * Movie consist of Movie Name, Timings , Total seats in cinema and available seats.
 * Users can book only available seats.
 * Two users can not book same seat simultaneously(Race Condition)
-* Cinema Owners can add any number of Movies in their cinema's if they are registerd with bookMyShow.
+* Cinema Owners need to register their cinema on the portal to offer movies
+* Cinema Owners can add any number of Movies in their cinema's if they are registerd with Movies Mania.
 
 ## Technical Details:
 * The Microservice is designed using Java8 with springboot and Postgresql as 
