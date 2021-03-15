@@ -11,10 +11,11 @@ from any city they can select any cinema from any cinema they can select any mov
 ## Technical Details:
 * The Microservice is designed using Java8 with springboot and Postgresql as 
 relational database
+* Used SLF4j for logging purpose  
 * Microservice is very loosely coupled to accept any enhancements.
 * The Data is scattered in different tables to make the best use of it and to provide the 
 best abstraction.
-* Table 1. Geographic data consist of state city and cinemaId
+* Table 1. Geographic data consist of state city and Cinema Id(UUID)
 * Table 2. Cinema data consist of Cinema name,Cinema Id and city 
 * Table 3. Movies data consist of Movie name ,Cinema id, MovieTimings,
 Total available seats in cinema and the available seats to be booked.
